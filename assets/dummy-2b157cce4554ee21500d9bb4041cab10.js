@@ -1,0 +1,19 @@
+"use strict"
+define("dummy/app",["exports","@ember/application","ember-resolver","ember-load-initializers","dummy/config/environment"],(function(e,t,n,i,r){function l(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+class o extends t.default{constructor(){super(...arguments),l(this,"modulePrefix",r.default.modulePrefix),l(this,"podModulePrefix",r.default.podModulePrefix),l(this,"Resolver",n.default)}}e.default=o,(0,i.default)(o,r.default.modulePrefix)})),define("dummy/component-managers/glimmer",["exports","@glimmer/component/-private/ember-component-manager"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})})),define("dummy/helpers/page-title",["exports","ember-page-title/helpers/page-title"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+var n=t.default
+e.default=n})),define("dummy/initializers/container-debug-adapter",["exports","ember-resolver/resolvers/classic/container-debug-adapter"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+var n={name:"container-debug-adapter",initialize(){(arguments[1]||arguments[0]).register("container-debug-adapter:main",t.default)}}
+e.default=n})),define("dummy/initializers/export-application-global",["exports","ember","dummy/config/environment"],(function(e,t,n){function i(){var e=arguments[1]||arguments[0]
+if(!1!==n.default.exportApplicationGlobal){var i
+if("undefined"!=typeof window)i=window
+else if("undefined"!=typeof global)i=global
+else{if("undefined"==typeof self)return
+i=self}var r,l=n.default.exportApplicationGlobal
+r="string"==typeof l?l:t.default.String.classify(n.default.modulePrefix),i[r]||(i[r]=e,e.reopen({willDestroy:function(){this._super.apply(this,arguments),delete i[r]}}))}}Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0,e.initialize=i
+var r={name:"export-application-global",initialize:i}
+e.default=r})),define("dummy/router",["exports","@ember/routing/router","dummy/config/environment"],(function(e,t,n){function i(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+class r extends t.default{constructor(){super(...arguments),i(this,"location",n.default.locationType),i(this,"rootURL",n.default.rootURL)}}e.default=r,r.map((function(){}))})),define("dummy/services/page-title-list",["exports","ember-page-title/services/page-title-list"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})})),define("dummy/services/page-title",["exports","ember-page-title/services/page-title"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})})),define("dummy/templates/application",["exports","@ember/template-factory"],(function(e,t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+var n=(0,t.createTemplateFactory)({id:"PF32WMer",block:'[[[1,[28,[35,0],["Dummy"],null]],[1,"\\n\\n"],[10,"h2"],[14,1,"title"],[12],[1,"Welcome to Ember"],[13],[1,"\\n\\n"],[46,[28,[37,2],null,null],null,null,null]],[],false,["page-title","component","-outlet"]]',moduleName:"dummy/templates/application.hbs",isStrictMode:!1})
+e.default=n})),define("dummy/config/environment",[],(function(){try{var e="dummy/config/environment",t=document.querySelector('meta[name="'+e+'"]').getAttribute("content"),n={default:JSON.parse(decodeURIComponent(t))}
+return Object.defineProperty(n,"__esModule",{value:!0}),n}catch(i){throw new Error('Could not read config from meta tag with name "'+e+'".')}})),runningTests||require("dummy/app").default.create({})
