@@ -1,5 +1,6 @@
 ember-refined-route-url
 ==============================================================================
+[![CI](https://github.com/raido/ember-refined-route-url/actions/workflows/ci.yml/badge.svg)](https://github.com/raido/ember-refined-route-url/actions/workflows/ci.yml)
 
 [Short description of the addon.]
 
