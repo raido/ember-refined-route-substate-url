@@ -31,6 +31,16 @@ Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
+Publishing Documentation
+------------------------------------------------------------------------------
+
+To publish documentation, run the following command:
+
+```bash
+ember github-pages:commit --message "Update documentation"
+git push origin gh-pages:gh-pages
+```
+
 
 License
 ------------------------------------------------------------------------------
