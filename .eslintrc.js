@@ -20,7 +20,9 @@ module.exports = {
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    '@typescript-eslint/no-empty-function': 'off',
+  },
   overrides: [
     // node files
     {
