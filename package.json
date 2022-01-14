@@ -102,8 +102,10 @@
     "edition": "octane"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "https://raido.github.io/ember-refined-route-url"
   },
+  "homepage": "https://raido.github.io/ember-refined-route-url",
   "volta": {
     "node": "12.22.6",
     "yarn": "1.22.15"
