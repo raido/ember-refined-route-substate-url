@@ -1,5 +1,5 @@
 {
-  "name": "ember-refined-route-url",
+  "name": "ember-refined-route-substate-url",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -103,9 +103,9 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "https://raido.github.io/ember-refined-route-url"
+    "demoURL": "https://raido.github.io/ember-refined-route-substate-url"
   },
-  "homepage": "https://raido.github.io/ember-refined-route-url",
+  "homepage": "https://raido.github.io/ember-refined-route-substate-url",
   "volta": {
     "node": "12.22.6",
     "yarn": "1.22.15"
