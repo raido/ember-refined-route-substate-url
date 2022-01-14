@@ -1,6 +1,6 @@
-ember-refined-route-url
+ember-refined-route-substate-url
 ==============================================================================
-[![CI](https://github.com/raido/ember-refined-route-url/actions/workflows/ci.yml/badge.svg)](https://github.com/raido/ember-refined-route-url/actions/workflows/ci.yml)
+[![CI](https://github.com/raido/ember-refined-route-substate-url/actions/workflows/ci.yml/badge.svg)](https://github.com/raido/ember-refined-route-substate-url/actions/workflows/ci.yml)
 
 [Short description of the addon.]
 
@@ -17,7 +17,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-refined-route-url
+ember install ember-refined-route-substate-url
 ```
 
 

@@ -28,16 +28,16 @@
         "tests/dummy/app/*",
         "app/*"
       ],
-      "ember-refined-route-url": [
+      "ember-refined-route-substate-url": [
         "addon"
       ],
-      "ember-refined-route-url/*": [
+      "ember-refined-route-substate-url/*": [
         "addon/*"
       ],
-      "ember-refined-route-url/test-support": [
+      "ember-refined-route-substate-url/test-support": [
         "addon-test-support"
       ],
-      "ember-refined-route-url/test-support/*": [
+      "ember-refined-route-substate-url/test-support/*": [
         "addon-test-support/*"
       ],
       "*": [

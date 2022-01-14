@@ -2,8 +2,8 @@
 
 ## Installation
 
-* `git clone <repository-url>`
-* `cd ember-refined-route-url`
+* `git clone git@github.com:raido/ember-refined-route-substate-url.git`
+* `cd ember-refined-route-substate-url`
 * `yarn install`
 
 ## Linting
